@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: orange;
+}
+.content {
+    background-color: coral;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.changing_div {
+    width: 250px;
+    height: 100px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50px;
+}
+.circle {
+    width: 100px;
+    height: 100%;
+    background-color: red;
+    border-radius: 50%;
+    transition:transform 0.5s linear;
+}
+
+.translate {
+    background-color: green;
+    transform:translateX(140px);
+    transition:transform 0.5s linear;
+}
